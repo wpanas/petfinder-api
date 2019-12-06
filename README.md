@@ -4,6 +4,8 @@
 
 # Task
 
+## Fetching dogs
+
 Using Spring MVC integrate with Petfinder API. Provide application that will authenticate itself and download information about adoptable dogs in given city.
 
 Here is an example of fetching first 20 dogs from Jersey City.
@@ -29,6 +31,8 @@ GET /dogs/jersey-city?size=20
     }
 }
 ```
+
+## User authentication
 
 Your application should be authenticated with basic HTTP authentication. 
 
